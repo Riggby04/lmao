@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Clock from 'react-live-clock';
+import Clock from "react-live-clock";
 export default function Home() {
   return (
     <div className="container">
@@ -10,7 +10,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main">  <Clock className="clock" format={'hh:mm:ss'} ticking={true} timezone={'Europe/Amsterdam'} />
+      <main className="main">
+        {" "}
+        <Clock
+          className="clock"
+          format={"hh:mm:ss"}
+          ticking={true}
+          timezone={"Europe/Amsterdam"}
+        />
         <h1 className="titel">ik ben Ole en dit is mijn website.</h1>
         <p className="description"></p>
         <div className="grid">
@@ -28,8 +35,8 @@ export default function Home() {
           </a>
         </div>
         <div className="alert alert-warning" role="alert">
-  A simple primary alert—check it out!
-</div>
+          A simple primary alert—check it out!
+        </div>
       </main>
       <footer className="footer">
         <a
