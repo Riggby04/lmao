@@ -27,20 +27,9 @@ export default function Home() {
             <p>my twitch.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>lear abt your mom!</p>
+          
 
-            </a> 
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
+          
           <a
             href="/ik"
             
