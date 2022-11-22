@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Layout from "../Components/Layout";
 
 export default function Home() {
   return (
@@ -10,9 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main">
-        {" "}
-        
+      <Layout>
+      <div className="container">
         <h1 className="titel">ik ben Ole en dit is mijn website.</h1>
         <p className="description"></p>
         <div className="grid">
@@ -32,7 +32,8 @@ export default function Home() {
         <div className="alert alert-warning" role="alert">
           A simple primary alert—check it out!
         </div>
-      </main>
+        </div>
+      </Layout>
       <footer className="footer">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

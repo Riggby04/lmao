@@ -1,0 +1,53 @@
+import React from "react";
+import Image from "next/image"
+import Link from "next/link"
+export default function Header() {
+  return (
+    <header>
+      <nav className="container navbar navbar-expand-md  fixed-top">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+          <Image width={472/2} height={120/2} src="/images/logo.png"/>
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item p-2">
+    
+                <Link className="nav-link active" aria-current="page" href="/oplossingen">
+                  Oplossingen
+                </Link>
+              </li>
+              <li className="nav-item p-2">
+                <Link className="nav-link" href="#">
+                  Over ons
+                </Link>
+              </li>
+              <li className="nav-item p-2">
+                <Link className="nav-link " href="#" tabindex="-1" aria-disabled="true">
+                  Contact
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link " href="http://app.recraplan.nl" tabindex="-1" aria-disabled="true">
+                <button type="button" className="btn bt-orange">Dashboard</button>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+}
