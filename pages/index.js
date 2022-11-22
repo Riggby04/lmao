@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ik ben Ole en dit is mijn website 
+          ik ben Ole en dit is mijn website. 
         </h1>
 
         <p className={styles.description}>
