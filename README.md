@@ -15,3 +15,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 https://www.npmjs.com/ zoek op react + wat je zoekt
+
+https://sass-lang.com/guide
