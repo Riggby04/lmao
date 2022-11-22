@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.mainik}>
-      klik hehe <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='_blank'>hehe</a>
+      klik hier <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='_blank'>hehe</a>
       </main> 
 
       <footer className={styles.footer}>
