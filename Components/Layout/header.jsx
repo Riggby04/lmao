@@ -34,13 +34,13 @@ export default function Header() {
                 </Link>
               </li>
               <li className="nav-item p-2">
-                <Link className="nav-link " href="#" tabindex="-1" aria-disabled="true">
+                <Link className="nav-link " href="#" tabIndex="-1" aria-disabled="true">
                   Contact
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link " href="http://app.recraplan.nl" tabindex="-1" aria-disabled="true">
+                <Link className="nav-link " href="http://app.recraplan.nl" tabIndex="-1" aria-disabled="true">
                 <button type="button" className="btn bt-orange">Dashboard</button>
                 </Link>
               </li>
