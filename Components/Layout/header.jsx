@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="container navbar navbar-expand-md  fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-          <Image width={472/2} height={120/2} src="/images/logo.png"/>
+          <Image width={472/2} height={200/2} src="/logo.png"/>
           </a>
           <button
             className="navbar-toggler"
@@ -30,12 +30,12 @@ export default function Header() {
               </li>
               <li className="nav-item p-2">
                 <Link className="nav-link" href="#">
-                  Over ons
+                  Over mij i gues
                 </Link>
               </li>
               <li className="nav-item p-2">
                 <Link className="nav-link " href="#" tabIndex="-1" aria-disabled="true">
-                  Contact
+                  Contact yay
                 </Link>
               </li>
 
