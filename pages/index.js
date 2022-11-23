@@ -21,7 +21,7 @@ export default function Home() {
             className="card"
             target="blank_"
           >
-            <h2>Documentation &rarr;</h2>
+            <h2>twitch &rarr;</h2>
             <p>my twitch.</p>
           </a>
           <a href="/ik" rel="noopener noreferrer" className="card">
