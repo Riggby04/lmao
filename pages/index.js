@@ -34,9 +34,10 @@ export default function Home() {
         <h2>mijn bedrijf &rarr;</h2>
         <a> href="https://github.com/Riggby04/lmao" </a>
         
+        </div>
+        </Layout>
         
-        
-       
+       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -48,7 +49,7 @@ export default function Home() {
           </span>
         </a>
       </footer>
-      - 
+      
            </div>
   );
 }
