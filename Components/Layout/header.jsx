@@ -25,7 +25,7 @@ export default function Header() {
               <li className="nav-item p-2">
     
                 <Link className="nav-link active" aria-current="page" href="/oplossingen">
-                  Oplossingen
+                  
                 </Link>
               </li>
               <li className="nav-item p-2">
@@ -41,7 +41,7 @@ export default function Header() {
 
               <li className="nav-item">
                 <Link className="nav-link " href="http://app.recraplan.nl" tabIndex="-1" aria-disabled="true">
-                <button type="button" className="btn bt-orange">Dashboard</button>
+                <button type="button" className="btn bt-orange">Diensten</button>
                 </Link>
               </li>
             </ul>

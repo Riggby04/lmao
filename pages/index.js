@@ -25,26 +25,25 @@ export default function Home() {
             <h2>over mij  &rarr;</h2> 
             <p>Dit ben ik</p>
           </a>
-        <a href="/ik" rel="noopener noreferrer" className="card">
-          <h2> ________ &rarr;</h2>
-            <p>_________</p>
+        
+         
         
         
-            <p></p>
-          </a>
-        <a href="/ik" rel="noopener noreferrer" className="card">
+            
+          <a href="/ik" rel="noopener noreferrer" className="card">
             <h2>mijn bedrijf &rarr;</h2>
             <p>ik ben een joch</p>
 
-          </a>
-          <a href="https://github.com/Riggby04/lmao"
+          </a>      
+  
+          
+        </div>
+      <a href="https://github.com/Riggby04/lmao"
           className="card"
           target="_blank">
           <h2>neem contact op &rarr;</h2>
           <p></p>
           </a>
-        </div>
-      
         
         
         </div>
