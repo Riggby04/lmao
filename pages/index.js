@@ -38,7 +38,7 @@ export default function Home() {
   
           
         </div>
-      <a href="https://github.com/Riggby04/lmao"
+      <a href="/contact"
           className="card"
           target="_blank">
           <h2>neem contact op &rarr;</h2>
