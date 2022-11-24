@@ -21,35 +21,14 @@ export default function Home() {
 
               <div class="container">
                 <label for="fname">First Name</label>
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  className="form-control"
-                  placeholder="Your name.."
-                />
+                <input type="text" id="fname" name="firstname" className="form-control" placeholder="Your name.." />
 
                 <label for="lname">Last Name</label>
-                <input
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  className="form-control"
-                  placeholder="Your last name.."
-                />
+                <input type="text" id="lname" name="lastname" className="form-control" placeholder="Your last name.." />
                 <label for="subject">Subject</label>
-                <textarea
-                  id="subject"
-                  name="subject"
-                  placeholder="Write something.."
-                  className="form-control"
-                ></textarea>
+                <textarea id="subject" name="subject" placeholder="Write something.." className="form-control"></textarea>
                 <p className="pt-4">
-                  <input
-                    type="submit"
-                    value="Submit"
-                    className="form-control"
-                  />
+                  <input type="submit" value="Submit" className="form-control" />
                 </p>
               </div>
             </div>
