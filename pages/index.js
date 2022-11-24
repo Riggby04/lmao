@@ -38,7 +38,7 @@ export default function Home() {
   
           
         </div>
-      <a href="/contact"
+      <a href="/contact#"
           className="card"
           target="_blank">
           <h2>neem contact op &rarr;</h2>
