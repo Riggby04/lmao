@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="titel">ik ben Ole en dit is mijn website.</h1>
           <p className="description"></p>
           <div className="grid">
-            <a href="https://www.twitch.tv/acc_issues_xx" className="card" target="blank_">
+            <a href="/over mij" className="card" target="blank_">
               <h2>over mij &rarr;</h2>
               <p>Dit ben ik</p>
             </a>
