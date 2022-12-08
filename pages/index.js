@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Layout>
         <div className="container">
-          <h1 className="titel"> dit is mijn website.</h1>
+          <h1 className="titel"> dit is mijn website.</h1> 
           <p className="description"></p>
           <div className="grid">
             <a href="/over%20mij" className="card" target="blank_">
@@ -22,7 +22,7 @@ export default function Home() {
             </a>
 
             <a href="/games" rel="noopener noreferrer" className="card">
-              <h2>mijn bedrijf &rarr;</h2>
+              <h2>games &rarr;</h2>
               <p>ik ben een joch</p>
             </a>
           </div>

@@ -25,8 +25,8 @@ export default function Home() {
              <ul>
          <Image src="/ttf2.jpg" alt="game" width={300} height={200} />
         <Image src="/vtol.jpg" alt="game" width={300} height={200} />
-        <Image src="/cyber.jpg" alt="game" width={300} height={200} />
-        <Image src="/twd 2.jpg" alt="game" width={300} height={200} />
+        <Image src="/cyber.jpg" alt="game" width={300} height={200} /></ul>
+        <ul><Image src="/twd 2.jpg" alt="game" width={300} height={200} />
         <Image src="/outlast.jpg" alt="game" width={300} height={200} />
         <Image src="/warhammer.jpg" alt="game" width={300} height={200} /></ul>
       </Layout>
